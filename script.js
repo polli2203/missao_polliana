@@ -107,7 +107,6 @@ function respostaSelecionada(opcaoSelecionada) {
 function mostraResultado() {
     caixaPerguntas.textContent = "Ao fim diso...";
     textoResultado.textContent = historiaFinal;
-    caixaAlternativas.textContent = "";
 }
 
 mostraPergunta();
