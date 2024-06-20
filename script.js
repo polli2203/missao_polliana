@@ -97,13 +97,6 @@ function mostraAlternativas(){
     }
 }
 
-function respostaSelecionada(opcaoSelecionada) {
-    const afirmacoes = opcaoSelecionada.afirmacao;
-    historiaFinal;
-    atual++;
-    mostraPergunta();
-}
-
 function mostraResultado() {
     caixaPerguntas.textContent = "Ao fim diso...";
     textoResultado.textContent = historiaFinal;
