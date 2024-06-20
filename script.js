@@ -75,7 +75,7 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
-let historiaFinal = "";
+let historiaFinal = "Chegamos a conclusão da importância da aplicação da Inteligência Emocional no dia a dia para saber lidar com certas situações.";
 
 function mostraPergunta() {
     if (atual >= perguntas.length) {
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Ao fim diso...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
